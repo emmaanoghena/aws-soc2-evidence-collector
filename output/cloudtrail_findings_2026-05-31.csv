@@ -1,9 +1,0 @@
-trail_name,home_region,s3_bucket,is_multiregion,log_validation,kms_encrypted,is_logging,s3_public,finding_type,severity,soc2_control,nist_control,finding_detail
-medisphere-dev-trail,us-west-2,medisphere-dev-logs,False,False,False,True,False,NOT_MULTIREGION,HIGH,CC7.2,AU-2,Trail does not cover all regions - activity in other regions goes unlogged
-medisphere-dev-trail,us-west-2,medisphere-dev-logs,False,False,False,True,False,NO_LOG_VALIDATION,HIGH,CC7.2,AU-9,Log file validation is disabled - logs could be tampered with undetected
-medisphere-dev-trail,us-west-2,medisphere-dev-logs,False,False,False,True,False,NO_KMS_ENCRYPTION,MEDIUM,CC6.7,AU-9,Trail logs are not encrypted with KMS - data at rest is unprotected
-medisphere-legacy-trail,us-east-1,medisphere-old-logs-bucket,False,False,False,False,True,TRAIL_NOT_LOGGING,CRITICAL,CC7.2,AU-2,CloudTrail trail exists but logging is currently disabled
-medisphere-legacy-trail,us-east-1,medisphere-old-logs-bucket,False,False,False,False,True,NOT_MULTIREGION,HIGH,CC7.2,AU-2,Trail does not cover all regions - activity in other regions goes unlogged
-medisphere-legacy-trail,us-east-1,medisphere-old-logs-bucket,False,False,False,False,True,NO_LOG_VALIDATION,HIGH,CC7.2,AU-9,Log file validation is disabled - logs could be tampered with undetected
-medisphere-legacy-trail,us-east-1,medisphere-old-logs-bucket,False,False,False,False,True,NO_KMS_ENCRYPTION,MEDIUM,CC6.7,AU-9,Trail logs are not encrypted with KMS - data at rest is unprotected
-medisphere-legacy-trail,us-east-1,medisphere-old-logs-bucket,False,False,False,False,True,S3_BUCKET_PUBLIC,CRITICAL,CC6.1,AC-3,S3 bucket storing trail logs is publicly accessible
