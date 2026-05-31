@@ -1,0 +1,158 @@
+username,department,role,account_status,finding_type,severity,soc2_control,nist_control,finding_detail,access_key_age_days,password_last_rotated_days,last_login_days,mfa_enabled,access_level
+Olivia.brown,Engineering,Backend Developer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,140,72,23,False,PowerUser
+Olivia.brown,Engineering,Backend Developer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,140,72,23,False,PowerUser
+Olivia.brown,Engineering,Backend Developer,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,140,72,23,False,PowerUser
+Ella.smith,Engineering,Backend Developer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,111,69,14,False,ReadOnly
+Ella.smith,Engineering,Backend Developer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,111,69,14,False,ReadOnly
+Jackson.garcia,Engineering,Junior Developer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,142,217,30,False,Limited
+Jackson.garcia,Engineering,Junior Developer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,142,217,30,False,Limited
+Jackson.garcia,Engineering,Junior Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,142,217,30,False,Limited
+James.brown,Engineering,Frontend Developer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,172,36,28,False,SecurityAudit
+James.brown,Engineering,Frontend Developer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,172,36,28,False,SecurityAudit
+Aria.gonzalez,Engineering,EHR Integration Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,235,147,27,True,PowerUser
+Aria.gonzalez,Engineering,EHR Integration Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,235,147,27,True,PowerUser
+Sophia.lopez,Engineering,Backend Developer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,232,172,19,True,SecurityAudit
+Sophia.lopez,Engineering,Backend Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,232,172,19,True,SecurityAudit
+Sophia.moore,Engineering,EHR Integration Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,36,165,10,True,ReadOnly
+Ethan.johnson,Engineering,Junior Developer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,285,66,9,True,ReadOnly
+Olivia.davis,Engineering,Junior Developer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,234,46,22,True,Support
+Olivia.taylor,Engineering,Junior Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,204,102,23,True,VendorTemporaryAccess
+Chloe.wilson,Engineering,Backend Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,78,170,25,True,PowerUser
+Scarlett.brown,Engineering,Junior Developer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,283,230,30,True,Support
+Scarlett.brown,Engineering,Junior Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,283,230,30,True,Support
+Ava.rodriguez,Engineering,EHR Integration Engineer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,222,50,16,False,Developer
+Ava.rodriguez,Engineering,EHR Integration Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,222,50,16,False,Developer
+Elijah.martin,Engineering,Backend Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,152,225,10,True,ReadOnly
+Ella.hernandez,Engineering,Frontend Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,271,245,30,True,VendorTemporaryAccess
+Olivia.thomas,Engineering,Junior Developer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,272,206,26,True,Developer
+Olivia.thomas,Engineering,Junior Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,272,206,26,True,Developer
+Henry.martinez,Engineering,Junior Developer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,276,203,24,True,Limited
+Henry.martinez,Engineering,Junior Developer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,276,203,24,True,Limited
+Isabella.davis,Engineering,EHR Integration Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,264,125,27,True,PowerUser
+Isabella.davis,Engineering,EHR Integration Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,264,125,27,True,PowerUser
+Evelyn.miller,Security & Compliance,HIPAA Compliance Auditor,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,121,81,9,False,Developer
+Evelyn.miller,Security & Compliance,HIPAA Compliance Auditor,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,121,81,9,False,Developer
+Mason.brown,Security & Compliance,SOC Analyst,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,242,216,17,False,PowerUser
+Mason.brown,Security & Compliance,SOC Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,242,216,17,False,PowerUser
+Mason.brown,Security & Compliance,SOC Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,242,216,17,False,PowerUser
+Mason.brown,Security & Compliance,SOC Analyst,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,242,216,17,False,PowerUser
+Scarlett.brown,Security & Compliance,HIPAA Compliance Auditor,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,239,231,29,True,Administrator
+Scarlett.brown,Security & Compliance,HIPAA Compliance Auditor,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,239,231,29,True,Administrator
+Benjamin.moore,Security & Compliance,GRC Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,127,233,28,True,PowerUser
+Evelyn.thomas,Security & Compliance,Security Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,121,52,17,True,ReadOnly
+Aria.anderson,Security & Compliance,Security Engineer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,1,109,22,False,Support
+Aria.anderson,Security & Compliance,Security Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,1,109,22,False,Support
+Logan.moore,Security & Compliance,SOC Analyst,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,151,65,29,False,Administrator
+Logan.moore,Security & Compliance,SOC Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,151,65,29,False,Administrator
+Logan.moore,Security & Compliance,SOC Analyst,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,151,65,29,False,Administrator
+Sophia.johnson,Security & Compliance,Security Engineer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,244,138,14,False,PowerUser
+Sophia.johnson,Security & Compliance,Security Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,244,138,14,False,PowerUser
+Sophia.johnson,Security & Compliance,Security Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,244,138,14,False,PowerUser
+Sophia.johnson,Security & Compliance,Security Engineer,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,244,138,14,False,PowerUser
+Jack.jackson,Security & Compliance,Security Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,120,113,27,True,ReadOnly
+Jack.jackson,Security & Compliance,Security Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,120,113,27,True,ReadOnly
+Logan.taylor,Cloud Operations,Cloud Infrastructure Admin,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,214,178,12,True,SecurityAudit
+Logan.taylor,Cloud Operations,Cloud Infrastructure Admin,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,214,178,12,True,SecurityAudit
+James.jones,Cloud Operations,Cloud Infrastructure Admin,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,160,71,22,True,Support
+Abigail.miller,Cloud Operations,Cloud Infrastructure Admin,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,288,35,28,False,Support
+Sophia.anderson,Cloud Operations,DevOps Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,125,104,21,True,Support
+Sophia.anderson,Cloud Operations,DevOps Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,125,104,21,True,Support
+Jack.johnson,Cloud Operations,Platform Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,258,135,22,True,PowerUser
+Jack.johnson,Cloud Operations,Platform Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,258,135,22,True,PowerUser
+Daniel.rodriguez,Cloud Operations,DevOps Engineer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,170,207,26,False,Developer
+Daniel.rodriguez,Cloud Operations,DevOps Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,170,207,26,False,Developer
+Daniel.rodriguez,Cloud Operations,DevOps Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,170,207,26,False,Developer
+Noah.jones,Cloud Operations,Platform Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,287,12,27,True,Administrator
+Mia.lopez,Cloud Operations,Platform Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,220,42,29,True,Administrator
+Jack.wilson,Cloud Operations,Cloud Infrastructure Admin,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,52,100,13,True,Developer
+Ava.garcia,Cloud Operations,Cloud Infrastructure Admin,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,90,235,17,True,SecurityAudit
+Chloe.brown,Clinical Operations,Clinical Workflow Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,127,78,25,True,Limited
+Sebastian.davis,Clinical Operations,Clinical Workflow Analyst,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,235,99,21,False,ReadOnly
+Sebastian.davis,Clinical Operations,Clinical Workflow Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,235,99,21,False,ReadOnly
+Jackson.rodriguez,Clinical Operations,Clinical Data Viewer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,142,231,28,True,SecurityAudit
+Jackson.rodriguez,Clinical Operations,Clinical Data Viewer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,142,231,28,True,SecurityAudit
+Emma.rodriguez,Clinical Operations,Clinical Workflow Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,274,94,30,True,Developer
+Emma.rodriguez,Clinical Operations,Clinical Workflow Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,274,94,30,True,Developer
+Harper.martin,Clinical Operations,Clinical Workflow Analyst,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,222,98,20,False,PowerUser
+Harper.martin,Clinical Operations,Clinical Workflow Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,222,98,20,False,PowerUser
+Harper.martin,Clinical Operations,Clinical Workflow Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,222,98,20,False,PowerUser
+Harper.martin,Clinical Operations,Clinical Workflow Analyst,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,222,98,20,False,PowerUser
+Ava.taylor,Clinical Operations,Clinical Reporting Specialist,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,22,191,17,False,ReadOnly
+Ava.taylor,Clinical Operations,Clinical Reporting Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,22,191,17,False,ReadOnly
+Scarlett.brown,Clinical Operations,Clinical Data Viewer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,169,169,20,True,Support
+Scarlett.brown,Clinical Operations,Clinical Data Viewer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,169,169,20,True,Support
+Abigail.jones,Clinical Operations,Clinical Reporting Specialist,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,206,188,21,True,ReadOnly
+Abigail.jones,Clinical Operations,Clinical Reporting Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,206,188,21,True,ReadOnly
+Mia.gonzalez,Clinical Operations,Clinical Workflow Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,89,167,12,True,Administrator
+Ethan.anderson,Clinical Operations,Clinical Data Viewer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,296,165,10,True,VendorTemporaryAccess
+Ethan.anderson,Clinical Operations,Clinical Data Viewer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,296,165,10,True,VendorTemporaryAccess
+Mia.taylor,Clinical Operations,Clinical Data Viewer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,86,178,28,True,SecurityAudit
+Olivia.smith,Clinical Operations,Clinical Data Viewer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,115,216,24,True,Administrator
+Olivia.smith,Clinical Operations,Clinical Data Viewer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,115,216,24,True,Administrator
+Jack.jackson,Clinical Operations,Clinical Workflow Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,37,126,17,True,ReadOnly
+Henry.smith,Clinical Operations,Clinical Workflow Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,124,47,10,True,PowerUser
+Abigail.davis,Customer Support,Patient Support Agent,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,265,128,29,False,PowerUser
+Abigail.davis,Customer Support,Patient Support Agent,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,265,128,29,False,PowerUser
+Abigail.davis,Customer Support,Patient Support Agent,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,265,128,29,False,PowerUser
+Abigail.davis,Customer Support,Patient Support Agent,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,265,128,29,False,PowerUser
+Jackson.anderson,Customer Support,Support Specialist,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,286,162,20,True,Limited
+Jackson.anderson,Customer Support,Support Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,286,162,20,True,Limited
+Benjamin.rodriguez,Customer Support,Customer Success Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,81,200,15,True,ReadOnly
+Isabella.rodriguez,Customer Support,Support Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,266,134,10,True,VendorTemporaryAccess
+Noah.jones,Customer Support,Support Specialist,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,171,91,13,False,Developer
+Noah.jones,Customer Support,Support Specialist,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,171,91,13,False,Developer
+Noah.jones,Customer Support,Support Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,171,91,13,False,Developer
+Harper.hernandez,Customer Support,Customer Success Specialist,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,109,26,17,False,VendorTemporaryAccess
+Harper.hernandez,Customer Support,Customer Success Specialist,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,109,26,17,False,VendorTemporaryAccess
+Henry.smith,Customer Support,Patient Support Agent,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,199,241,12,True,Limited
+Henry.smith,Customer Support,Patient Support Agent,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,199,241,12,True,Limited
+Abigail.moore,Customer Support,Support Specialist,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,199,228,17,True,ReadOnly
+Abigail.moore,Customer Support,Support Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,199,228,17,True,ReadOnly
+Scarlett.gonzalez,Customer Support,Support Specialist,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,14,109,20,True,Developer
+Lucas.gonzalez,Data Analytics,BI Engineer,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,236,56,29,False,SecurityAudit
+Lucas.gonzalez,Data Analytics,BI Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,236,56,29,False,SecurityAudit
+Noah.johnson,Data Analytics,Healthcare Data Analyst,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,179,67,10,False,Administrator
+Noah.johnson,Data Analytics,Healthcare Data Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,179,67,10,False,Administrator
+Noah.johnson,Data Analytics,Healthcare Data Analyst,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,179,67,10,False,Administrator
+Grace.brown,Data Analytics,BI Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,85,165,11,True,Developer
+Aria.gonzalez,Data Analytics,Data Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,159,157,9,True,Limited
+Aria.gonzalez,Data Analytics,Data Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,159,157,9,True,Limited
+Victoria.martin,Data Analytics,Data Analyst,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,124,36,21,False,PowerUser
+Victoria.martin,Data Analytics,Data Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,124,36,21,False,PowerUser
+Victoria.martin,Data Analytics,Data Analyst,ACTIVE,PRIVILEGED_NO_MFA,CRITICAL,CC6.3,AC-6(5),User has elevated privileges (Admin/PowerUser) but MFA is not enabled,124,36,21,False,PowerUser
+Scarlett.lopez,Data Analytics,Healthcare Data Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,177,146,17,True,PowerUser
+Scarlett.lopez,Data Analytics,Healthcare Data Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,177,146,17,True,PowerUser
+Emma.wilson,Finance & Billing,Billing Admin,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,215,220,15,False,SecurityAudit
+Emma.wilson,Finance & Billing,Billing Admin,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,215,220,15,False,SecurityAudit
+Emma.wilson,Finance & Billing,Billing Admin,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,215,220,15,False,SecurityAudit
+Daniel.rodriguez,Finance & Billing,Billing Admin,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,222,55,14,True,VendorTemporaryAccess
+Sebastian.williams,Finance & Billing,Revenue Cycle Manager,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,165,228,23,True,Support
+Sebastian.williams,Finance & Billing,Revenue Cycle Manager,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,165,228,23,True,Support
+James.hernandez,Finance & Billing,Claims Analyst,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,291,166,9,True,Administrator
+James.hernandez,Finance & Billing,Claims Analyst,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,291,166,9,True,Administrator
+Ethan.rodriguez,Finance & Billing,Billing Admin,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,108,100,22,False,Support
+Ethan.rodriguez,Finance & Billing,Billing Admin,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,108,100,22,False,Support
+Ethan.rodriguez,Finance & Billing,Billing Admin,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,108,100,22,False,Support
+Grace.moore,HR & Administration,HR Administrator,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,271,98,17,True,SecurityAudit
+Grace.moore,HR & Administration,HR Administrator,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,271,98,17,True,SecurityAudit
+Jackson.taylor,HR & Administration,HR Manager,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,247,80,12,False,Support
+Jackson.taylor,HR & Administration,HR Manager,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,247,80,12,False,Support
+Ava.moore,HR & Administration,HR Manager,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,184,55,21,True,Developer
+Emma.smith,Product & Project Mgmt,Product Manager,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,64,173,15,True,Support
+Isabella.brown,Product & Project Mgmt,Product Manager,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,288,87,28,False,Limited
+Isabella.brown,Product & Project Mgmt,Product Manager,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,288,87,28,False,Limited
+Mia.jackson,Product & Project Mgmt,Product Manager,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,194,125,16,True,Limited
+Mia.jackson,Product & Project Mgmt,Product Manager,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,194,125,16,True,Limited
+Daniel.miller,Product & Project Mgmt,Product Manager,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,50,205,24,True,Support
+Ava.wilson,Vendors / Contractors,Third-Party Consultant,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,282,29,25,False,VendorTemporaryAccess
+Ava.wilson,Vendors / Contractors,Third-Party Consultant,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,282,29,25,False,VendorTemporaryAccess
+Henry.anderson,Vendors / Contractors,Vendor Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,118,83,21,True,PowerUser
+Abigail.davis,Vendors / Contractors,Vendor Engineer,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,101,118,27,True,Developer
+Abigail.davis,Vendors / Contractors,Vendor Engineer,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,101,118,27,True,Developer
+Ella.jackson,Vendors / Contractors,Third-Party Consultant,ACTIVE,MFA_DISABLED,CRITICAL,CC6.1,IA-2(1),Multi-factor authentication is not enabled for console access,84,212,21,False,Support
+Ella.jackson,Vendors / Contractors,Third-Party Consultant,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,84,212,21,False,Support
+Ava.williams,Vendors / Contractors,Third-Party Consultant,ACTIVE,ACCESS_KEY_TOO_OLD,HIGH,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,165,164,22,True,ReadOnly
+Ava.williams,Vendors / Contractors,Third-Party Consultant,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,165,164,22,True,ReadOnly
+Sebastian.rodriguez,Vendors / Contractors,External Auditor,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,10,205,9,True,Administrator
+Sophia.jackson,Vendors / Contractors,Third-Party Consultant,ACTIVE,ACCESS_KEY_TOO_OLD,CRITICAL,CC6.1,IA-5(1),Access key has not been rotated in over 90 days,226,244,22,True,Limited
+Sophia.jackson,Vendors / Contractors,Third-Party Consultant,ACTIVE,PASSWORD_NOT_ROTATED,HIGH,CC6.1,IA-5(1),Password has not been rotated in over 90 days,226,244,22,True,Limited

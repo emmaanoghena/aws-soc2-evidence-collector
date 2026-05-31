@@ -1,0 +1,101 @@
+username,department,role,mfa_enabled,account_status,access_level,access_key_age_days,password_last_rotated_days,last_login,console_access,programmatic_access,risk_level
+Olivia.brown,Engineering,Backend Developer,FALSE,ACTIVE,PowerUser,140,72,2026-05-08,TRUE,TRUE,CRITICAL
+Ella.smith,Engineering,Backend Developer,FALSE,ACTIVE,ReadOnly,111,69,2026-05-17,TRUE,TRUE,CRITICAL
+Jackson.garcia,Engineering,Junior Developer,FALSE,ACTIVE,Limited,142,217,2026-05-01,TRUE,TRUE,CRITICAL
+James.brown,Engineering,Frontend Developer,FALSE,ACTIVE,SecurityAudit,172,36,2026-05-03,TRUE,TRUE,CRITICAL
+Aria.gonzalez,Engineering,EHR Integration Engineer,TRUE,ACTIVE,PowerUser,235,147,2026-05-04,TRUE,TRUE,HIGH
+Isabella.martinez,Engineering,EHR Integration Engineer,TRUE,ACTIVE,PowerUser,35,21,2026-05-22,TRUE,TRUE,LOW
+Sophia.lopez,Engineering,Backend Developer,TRUE,ACTIVE,SecurityAudit,232,172,2026-05-12,TRUE,TRUE,HIGH
+Sophia.moore,Engineering,EHR Integration Engineer,TRUE,ACTIVE,ReadOnly,36,165,2026-05-21,TRUE,FALSE,LOW
+Ethan.johnson,Engineering,Junior Developer,TRUE,ACTIVE,ReadOnly,285,66,2026-05-22,TRUE,TRUE,HIGH
+Jack.hernandez,Engineering,EHR Integration Engineer,TRUE,ACTIVE,ReadOnly,33,64,2026-05-19,TRUE,TRUE,LOW
+Olivia.davis,Engineering,Junior Developer,TRUE,ACTIVE,Support,234,46,2026-05-09,TRUE,TRUE,HIGH
+Olivia.taylor,Engineering,Junior Developer,TRUE,ACTIVE,VendorTemporaryAccess,204,102,2026-05-08,TRUE,FALSE,HIGH
+Chloe.wilson,Engineering,Backend Developer,TRUE,ACTIVE,PowerUser,78,170,2026-05-06,TRUE,TRUE,LOW
+Scarlett.brown,Engineering,Junior Developer,TRUE,ACTIVE,Support,283,230,2026-05-01,TRUE,TRUE,HIGH
+Ava.rodriguez,Engineering,EHR Integration Engineer,FALSE,ACTIVE,Developer,222,50,2026-05-15,TRUE,TRUE,CRITICAL
+Elijah.martin,Engineering,Backend Developer,TRUE,ACTIVE,ReadOnly,152,225,2026-05-21,TRUE,FALSE,HIGH
+Ella.hernandez,Engineering,Frontend Developer,TRUE,ACTIVE,VendorTemporaryAccess,271,245,2026-05-01,TRUE,FALSE,HIGH
+Isabella.jackson,Engineering,EHR Integration Engineer,TRUE,ACTIVE,PowerUser,157,71,2026-05-02,TRUE,FALSE,HIGH
+Olivia.thomas,Engineering,Junior Developer,TRUE,ACTIVE,Developer,272,206,2026-05-05,TRUE,TRUE,HIGH
+Henry.martinez,Engineering,Junior Developer,TRUE,ACTIVE,Limited,276,203,2026-05-07,TRUE,TRUE,HIGH
+Isabella.davis,Engineering,EHR Integration Engineer,TRUE,ACTIVE,PowerUser,264,125,2026-05-04,TRUE,TRUE,HIGH
+Liam.davis,Engineering,Frontend Developer,TRUE,ACTIVE,PowerUser,3,28,2026-05-21,TRUE,TRUE,LOW
+Evelyn.miller,Security & Compliance,HIPAA Compliance Auditor,FALSE,ACTIVE,Developer,121,81,2026-05-22,TRUE,TRUE,CRITICAL
+Mason.brown,Security & Compliance,SOC Analyst,FALSE,ACTIVE,PowerUser,242,216,2026-05-14,TRUE,TRUE,CRITICAL
+Scarlett.brown,Security & Compliance,HIPAA Compliance Auditor,TRUE,ACTIVE,Administrator,239,231,2026-05-02,TRUE,TRUE,HIGH
+Mason.moore,Security & Compliance,HIPAA Compliance Auditor,TRUE,ACTIVE,VendorTemporaryAccess,55,73,2026-05-07,TRUE,FALSE,LOW
+Benjamin.moore,Security & Compliance,GRC Analyst,TRUE,ACTIVE,PowerUser,127,233,2026-05-03,TRUE,FALSE,HIGH
+Evelyn.thomas,Security & Compliance,Security Engineer,TRUE,ACTIVE,ReadOnly,121,52,2026-05-14,TRUE,TRUE,HIGH
+Aria.anderson,Security & Compliance,Security Engineer,FALSE,ACTIVE,Support,1,109,2026-05-09,TRUE,TRUE,HIGH
+Logan.moore,Security & Compliance,SOC Analyst,FALSE,ACTIVE,Administrator,151,65,2026-05-02,TRUE,TRUE,CRITICAL
+Sophia.johnson,Security & Compliance,Security Engineer,FALSE,ACTIVE,PowerUser,244,138,2026-05-17,TRUE,TRUE,CRITICAL
+Jack.jackson,Security & Compliance,Security Engineer,TRUE,ACTIVE,ReadOnly,120,113,2026-05-04,TRUE,TRUE,LOW
+Logan.taylor,Cloud Operations,Cloud Infrastructure Admin,TRUE,ACTIVE,SecurityAudit,214,178,2026-05-19,TRUE,TRUE,HIGH
+James.jones,Cloud Operations,Cloud Infrastructure Admin,TRUE,ACTIVE,Support,160,71,2026-05-09,TRUE,TRUE,HIGH
+Abigail.miller,Cloud Operations,Cloud Infrastructure Admin,FALSE,ACTIVE,Support,288,35,2026-05-03,TRUE,FALSE,CRITICAL
+Sophia.anderson,Cloud Operations,DevOps Engineer,TRUE,ACTIVE,Support,125,104,2026-05-10,TRUE,TRUE,HIGH
+Emma.jones,Cloud Operations,Platform Engineer,TRUE,ACTIVE,Support,283,86,2026-05-22,TRUE,FALSE,HIGH
+Ella.miller,Cloud Operations,Cloud Infrastructure Admin,TRUE,ACTIVE,SecurityAudit,79,79,2026-05-10,TRUE,TRUE,LOW
+Jack.johnson,Cloud Operations,Platform Engineer,TRUE,ACTIVE,PowerUser,258,135,2026-05-09,TRUE,TRUE,HIGH
+Daniel.rodriguez,Cloud Operations,DevOps Engineer,FALSE,ACTIVE,Developer,170,207,2026-05-05,TRUE,TRUE,CRITICAL
+Noah.jones,Cloud Operations,Platform Engineer,TRUE,ACTIVE,Administrator,287,12,2026-05-04,TRUE,TRUE,HIGH
+Mia.lopez,Cloud Operations,Platform Engineer,TRUE,ACTIVE,Administrator,220,42,2026-05-02,TRUE,TRUE,HIGH
+Jack.wilson,Cloud Operations,Cloud Infrastructure Admin,TRUE,ACTIVE,Developer,52,100,2026-05-18,TRUE,TRUE,LOW
+Ava.garcia,Cloud Operations,Cloud Infrastructure Admin,TRUE,ACTIVE,SecurityAudit,90,235,2026-05-14,TRUE,TRUE,MEDIUM
+Chloe.brown,Clinical Operations,Clinical Workflow Analyst,TRUE,ACTIVE,Limited,127,78,2026-05-06,TRUE,TRUE,HIGH
+Sebastian.davis,Clinical Operations,Clinical Workflow Analyst,FALSE,ACTIVE,ReadOnly,235,99,2026-05-10,TRUE,FALSE,CRITICAL
+Jackson.rodriguez,Clinical Operations,Clinical Data Viewer,TRUE,ACTIVE,SecurityAudit,142,231,2026-05-03,TRUE,TRUE,HIGH
+Emma.rodriguez,Clinical Operations,Clinical Workflow Analyst,TRUE,ACTIVE,Developer,274,94,2026-05-01,TRUE,TRUE,HIGH
+Harper.martin,Clinical Operations,Clinical Workflow Analyst,FALSE,ACTIVE,PowerUser,222,98,2026-05-11,TRUE,TRUE,CRITICAL
+Ava.taylor,Clinical Operations,Clinical Reporting Specialist,FALSE,ACTIVE,ReadOnly,22,191,2026-05-14,TRUE,TRUE,HIGH
+Scarlett.brown,Clinical Operations,Clinical Data Viewer,TRUE,ACTIVE,Support,169,169,2026-05-11,TRUE,TRUE,HIGH
+Abigail.jones,Clinical Operations,Clinical Reporting Specialist,TRUE,ACTIVE,ReadOnly,206,188,2026-05-10,TRUE,TRUE,HIGH
+Mia.gonzalez,Clinical Operations,Clinical Workflow Analyst,TRUE,ACTIVE,Administrator,89,167,2026-05-19,TRUE,TRUE,LOW
+Ethan.anderson,Clinical Operations,Clinical Data Viewer,TRUE,ACTIVE,VendorTemporaryAccess,296,165,2026-05-21,TRUE,TRUE,HIGH
+Mia.taylor,Clinical Operations,Clinical Data Viewer,TRUE,ACTIVE,SecurityAudit,86,178,2026-05-03,TRUE,FALSE,LOW
+Olivia.smith,Clinical Operations,Clinical Data Viewer,TRUE,ACTIVE,Administrator,115,216,2026-05-07,TRUE,TRUE,MEDIUM
+Jack.jackson,Clinical Operations,Clinical Workflow Analyst,TRUE,ACTIVE,ReadOnly,37,126,2026-05-14,TRUE,TRUE,LOW
+Henry.smith,Clinical Operations,Clinical Workflow Analyst,TRUE,ACTIVE,PowerUser,124,47,2026-05-21,TRUE,TRUE,HIGH
+Abigail.davis,Customer Support,Patient Support Agent,FALSE,ACTIVE,PowerUser,265,128,2026-05-02,TRUE,TRUE,CRITICAL
+Jackson.anderson,Customer Support,Support Specialist,TRUE,ACTIVE,Limited,286,162,2026-05-11,TRUE,TRUE,HIGH
+Benjamin.rodriguez,Customer Support,Customer Success Specialist,TRUE,ACTIVE,ReadOnly,81,200,2026-05-16,TRUE,TRUE,MEDIUM
+Isabella.rodriguez,Customer Support,Support Specialist,TRUE,ACTIVE,VendorTemporaryAccess,266,134,2026-05-21,TRUE,FALSE,HIGH
+Noah.jones,Customer Support,Support Specialist,FALSE,ACTIVE,Developer,171,91,2026-05-18,TRUE,TRUE,CRITICAL
+Harper.hernandez,Customer Support,Customer Success Specialist,FALSE,ACTIVE,VendorTemporaryAccess,109,26,2026-05-14,TRUE,TRUE,CRITICAL
+Henry.smith,Customer Support,Patient Support Agent,TRUE,ACTIVE,Limited,199,241,2026-05-19,TRUE,TRUE,HIGH
+Abigail.moore,Customer Support,Support Specialist,TRUE,ACTIVE,ReadOnly,199,228,2026-05-14,TRUE,TRUE,HIGH
+Scarlett.gonzalez,Customer Support,Support Specialist,TRUE,ACTIVE,Developer,14,109,2026-05-11,TRUE,TRUE,LOW
+Logan.jackson,Customer Support,Patient Support Agent,TRUE,ACTIVE,Administrator,273,16,2026-05-13,TRUE,FALSE,HIGH
+Lucas.gonzalez,Data Analytics,BI Engineer,FALSE,ACTIVE,SecurityAudit,236,56,2026-05-02,TRUE,TRUE,CRITICAL
+Lucas.williams,Data Analytics,BI Engineer,TRUE,ACTIVE,VendorTemporaryAccess,194,81,2026-05-14,TRUE,FALSE,HIGH
+Noah.johnson,Data Analytics,Healthcare Data Analyst,FALSE,ACTIVE,Administrator,179,67,2026-05-21,TRUE,TRUE,CRITICAL
+Evelyn.brown,Data Analytics,Data Analyst,TRUE,ACTIVE,ReadOnly,78,71,2026-05-05,TRUE,TRUE,LOW
+Grace.brown,Data Analytics,BI Engineer,TRUE,ACTIVE,Developer,85,165,2026-05-20,TRUE,TRUE,LOW
+Aria.gonzalez,Data Analytics,Data Analyst,TRUE,ACTIVE,Limited,159,157,2026-05-22,TRUE,TRUE,HIGH
+Victoria.martin,Data Analytics,Data Analyst,FALSE,ACTIVE,PowerUser,124,36,2026-05-10,TRUE,TRUE,CRITICAL
+Scarlett.lopez,Data Analytics,Healthcare Data Analyst,TRUE,ACTIVE,PowerUser,177,146,2026-05-14,TRUE,TRUE,HIGH
+Emma.wilson,Finance & Billing,Billing Admin,FALSE,ACTIVE,SecurityAudit,215,220,2026-05-16,TRUE,TRUE,CRITICAL
+Daniel.rodriguez,Finance & Billing,Billing Admin,TRUE,ACTIVE,VendorTemporaryAccess,222,55,2026-05-17,TRUE,TRUE,HIGH
+Sebastian.williams,Finance & Billing,Revenue Cycle Manager,TRUE,ACTIVE,Support,165,228,2026-05-08,TRUE,TRUE,HIGH
+James.hernandez,Finance & Billing,Claims Analyst,TRUE,ACTIVE,Administrator,291,166,2026-05-22,TRUE,TRUE,HIGH
+Ethan.rodriguez,Finance & Billing,Billing Admin,FALSE,ACTIVE,Support,108,100,2026-05-09,TRUE,TRUE,CRITICAL
+Evelyn.moore,Finance & Billing,Revenue Cycle Manager,TRUE,ACTIVE,ReadOnly,43,71,2026-05-14,TRUE,TRUE,LOW
+Isabella.gonzalez,HR & Administration,HR Administrator,TRUE,ACTIVE,ReadOnly,8,33,2026-05-10,TRUE,TRUE,LOW
+Grace.moore,HR & Administration,HR Administrator,TRUE,ACTIVE,SecurityAudit,271,98,2026-05-14,TRUE,TRUE,HIGH
+Grace.miller,HR & Administration,HR Administrator,TRUE,ACTIVE,SecurityAudit,128,69,2026-05-04,TRUE,FALSE,HIGH
+Jackson.taylor,HR & Administration,HR Manager,FALSE,ACTIVE,Support,247,80,2026-05-19,TRUE,TRUE,CRITICAL
+Ava.moore,HR & Administration,HR Manager,TRUE,ACTIVE,Developer,184,55,2026-05-10,TRUE,TRUE,HIGH
+Emma.smith,Product & Project Mgmt,Product Manager,TRUE,ACTIVE,Support,64,173,2026-05-16,TRUE,TRUE,LOW
+Emma.williams,Product & Project Mgmt,Business Analyst,TRUE,ACTIVE,Limited,26,74,2026-05-16,TRUE,TRUE,LOW
+Isabella.brown,Product & Project Mgmt,Product Manager,FALSE,ACTIVE,Limited,288,87,2026-05-03,TRUE,TRUE,CRITICAL
+Mia.jackson,Product & Project Mgmt,Product Manager,TRUE,ACTIVE,Limited,194,125,2026-05-15,TRUE,TRUE,HIGH
+Daniel.miller,Product & Project Mgmt,Product Manager,TRUE,ACTIVE,Support,50,205,2026-05-07,TRUE,TRUE,MEDIUM
+Ava.wilson,Vendors / Contractors,Third-Party Consultant,FALSE,ACTIVE,VendorTemporaryAccess,282,29,2026-05-06,TRUE,TRUE,CRITICAL
+Henry.anderson,Vendors / Contractors,Vendor Engineer,TRUE,ACTIVE,PowerUser,118,83,2026-05-10,TRUE,TRUE,LOW
+Abigail.davis,Vendors / Contractors,Vendor Engineer,TRUE,ACTIVE,Developer,101,118,2026-05-04,TRUE,TRUE,LOW
+Ella.jackson,Vendors / Contractors,Third-Party Consultant,FALSE,ACTIVE,Support,84,212,2026-05-10,TRUE,TRUE,HIGH
+Abigail.thomas,Vendors / Contractors,Vendor Engineer,TRUE,ACTIVE,VendorTemporaryAccess,206,79,2026-05-17,TRUE,FALSE,HIGH
+Ava.williams,Vendors / Contractors,Third-Party Consultant,TRUE,ACTIVE,ReadOnly,165,164,2026-05-09,TRUE,TRUE,HIGH
+Sebastian.rodriguez,Vendors / Contractors,External Auditor,TRUE,ACTIVE,Administrator,10,205,2026-05-22,TRUE,TRUE,MEDIUM
+Sophia.jackson,Vendors / Contractors,Third-Party Consultant,TRUE,ACTIVE,Limited,226,244,2026-05-09,TRUE,TRUE,HIGH

@@ -1,0 +1,9 @@
+bucket_name,region,public_blocked,encryption,encryption_type,versioning,finding_type,severity,soc2_control,nist_control,finding_detail
+medisphere-cloudtrail-logs,us-east-1,True,True,AES256,False,S3_NO_VERSIONING,MEDIUM,A1.2,CP-9,S3 bucket does not have versioning enabled - deleted or overwritten data cannot be recovered
+medisphere-dev-uploads,us-west-2,False,False,None,False,S3_PUBLIC_ACCESS_ENABLED,CRITICAL,CC6.1,AC-3,S3 bucket does not have public access blocked - data may be exposed to the internet
+medisphere-dev-uploads,us-west-2,False,False,None,False,S3_NO_ENCRYPTION,HIGH,CC6.7,SC-28,S3 bucket does not have server-side encryption enabled - data at rest is unprotected
+medisphere-dev-uploads,us-west-2,False,False,None,False,S3_NO_VERSIONING,MEDIUM,A1.2,CP-9,S3 bucket does not have versioning enabled - deleted or overwritten data cannot be recovered
+medisphere-staff-assets,us-east-1,False,True,AES256,False,S3_PUBLIC_ACCESS_ENABLED,CRITICAL,CC6.1,AC-3,S3 bucket does not have public access blocked - data may be exposed to the internet
+medisphere-staff-assets,us-east-1,False,True,AES256,False,S3_NO_VERSIONING,MEDIUM,A1.2,CP-9,S3 bucket does not have versioning enabled - deleted or overwritten data cannot be recovered
+medisphere-billing-exports,us-east-1,True,False,None,False,S3_NO_ENCRYPTION,HIGH,CC6.7,SC-28,S3 bucket does not have server-side encryption enabled - data at rest is unprotected
+medisphere-billing-exports,us-east-1,True,False,None,False,S3_NO_VERSIONING,MEDIUM,A1.2,CP-9,S3 bucket does not have versioning enabled - deleted or overwritten data cannot be recovered
